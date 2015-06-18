@@ -10,11 +10,12 @@
 	<array/>
 	<key>managed_installs</key>
 	<array>
-		<string>puppet</string>
 		<string>facter</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array/>
+	<array>
+		<string>puppet</string>
+	</array>
 	<key>managed_updates</key>
 	<array/>
 	<key>optional_installs</key>
