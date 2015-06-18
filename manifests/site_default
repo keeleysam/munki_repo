@@ -22,6 +22,7 @@
 	<array>
 		<string>Caffeine</string>
 		<string>Bonjour Browser</string>
+		<string>SuspiciousPackage</string>
 	</array>
 	<key>user</key>
 	<string></string>
