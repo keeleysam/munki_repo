@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>samuel</string>
+		<key>creation_date</key>
+		<date>2015-06-18T15:47:05Z</date>
+		<key>munki_version</key>
+		<string>2.2.2.2414</string>
+		<key>os_version</key>
+		<string>10.11</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string></string>
+	<key>display_name</key>
+	<string></string>
+	<key>icon_hash</key>
+	<string>76845935b75f97e7165ad7a34aba5f824f6e8a523889c5a3d1464bcfbd28e989</string>
+	<key>installer_item_hash</key>
+	<string>76f99dd2d32c86e3f3e5746b00edd2710e4c1f6d68c21636d2cc3997d5c365b3</string>
+	<key>installer_item_location</key>
+	<string>Bonjour Browser-1.5.6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>181</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.tildesoft.RendezvousBrowser</string>
+			<key>CFBundleVersion</key>
+			<string>1.5.6</string>
+			<key>path</key>
+			<string>/Applications/Bonjour Browser.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Bonjour Browser.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Bonjour Browser</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.5.6</string>
+</dict>
+</plist>
