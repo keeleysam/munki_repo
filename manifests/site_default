@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>included_manifests</key>
+	<array/>
+	<key>managed_installs</key>
+	<array>
+		<string>puppet</string>
+		<string>facter</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array/>
+	<key>managed_updates</key>
+	<array/>
+	<key>optional_installs</key>
+	<array>
+		<string>Caffeine</string>
+		<string>Bonjour Browser</string>
+	</array>
+	<key>user</key>
+	<string></string>
+</dict>
+</plist>
+
