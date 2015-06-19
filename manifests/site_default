@@ -12,6 +12,7 @@
 	<array>
 		<string>facter</string>
 		<string>Firefox</string>
+		<string>Chrome</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
