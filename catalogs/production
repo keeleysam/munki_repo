@@ -251,6 +251,70 @@
 		<key>developer</key>
 		<string></string>
 		<key>display_name</key>
+		<string></string>
+		<key>installer_item_hash</key>
+		<string>faa0710c187176751e680c972a2cf4e024a402edb3f8e3080d7bf1ec14227290</string>
+		<key>installer_item_location</key>
+		<string>Firefox-38.0.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>84006</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.0.5</string>
+				<key>CFBundleVersion</key>
+				<string>3815.5.25</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.0.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
 		<string>puppet</string>
 		<key>installed_size</key>
 		<integer>6927</integer>
